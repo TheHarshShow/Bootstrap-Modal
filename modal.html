@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bootstrap Modal Form</title>
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="bootstrap.min.js"></script>
+</head>
+<body>
+	<h1 class="h1">Let's create modalin Bootstrap</h1>
+	<button type="button" class="btn btn-info btn-lg center-block" data-toggle="modal" data-target="#mymodal">Open Modal</button>
+	<div class="modal fade" id="mymodal">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title">Bootstrap Modal</h4>
+				</div>
+				<div class="modal-body">
+					<h4>Responsive modal using bootstrap 3</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+					</p>
+
+					<h4>Popup's in modal</h4>
+					<a href="#" class="btn btn-md btn-danger pop">Danger button</a>
+					
+					<h4>Links</h4>
+					<p><a href="https://www.w3schools.com/bootstrap/bootstrap_modal.asp">Click here</a> for more info about modal</p>
+
+					<p><small class="text-muted">this is a muted text</small></p>
+					<hr>
+					<form class="form-horizontal">
+						<div class="form-group">
+							<label class="col-md-2 control-label" for="name">Name</label>
+							<div class="col-md-10">
+								<input class="form-control" id="name" placeholder="Your Name" type="text">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label class="col-md-2 control-label" for="email">Email</label>
+							<div class="col-md-10">
+								<input class="form-control" id="email" placeholder="Your Email" type="email">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label class="col-md-2 control-label" for="message">Message</label>
+							<div class="col-md-10">
+								<textarea class="form-control" id="message" placeholder="Your Message" rows="4"></textarea>
+								<button class="btn btn-success pull-left">Send</button>
+							</div>							
+						</div>						
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+					<button class="btn btn-primary" type="button">Save</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
