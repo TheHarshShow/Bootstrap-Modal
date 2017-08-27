@@ -1,2 +1,3 @@
-hello everybody
-syed moosa here , I like Ionic 2 and JavaScript and you can Learn programming tutorials on JAVASCRIPT ,  ASP.NET CORE MVC , IONIC 2 and lot more....
+This is just a simple Bootstrap 3 Modal
+
+Get code here and try this out!
